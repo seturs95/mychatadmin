@@ -7,6 +7,7 @@ PLUGIN_PATHS = ['pelican-plugins']
 JINJA_ENVIRONMENT = {
     'extensions': ['jinja2.ext.i18n'],
 }
+TYPOGRIFY = True
 PLUGINS = ['assets', 'sitemap', 'i18n_subsites']
 FIRST_NAME = 'MyChatAdmin'
 AUTHOR = 'Admin'
