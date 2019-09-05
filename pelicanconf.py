@@ -8,7 +8,7 @@ JINJA_ENVIRONMENT = {
     'extensions': ['jinja2.ext.i18n'],
 }
 TYPOGRIFY = True
-PLUGINS = ['assets', 'sitemap', 'i18n_subsites']
+PLUGINS = ['filetime_from_git','assets', 'sitemap', 'i18n_subsites']
 FIRST_NAME = 'MyChatAdmin'
 AUTHOR = 'Admin'
 SITENAME = 'MyChatAdmin - A Ragebot alternative'
@@ -21,7 +21,7 @@ DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = True
 GOOGLE_ANALYTICS = 'UA-147241774-1'
 SHARIFF = True
-
+SITEMAP = {'format': 'xml'}
 SITEURL = 'https://mychatadm.in'
 
 PATH = 'content'
