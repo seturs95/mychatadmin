@@ -20,24 +20,9 @@ ROBOTS = 'index, follow'
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = True
 GOOGLE_ANALYTICS = 'UA-147241774-1'
-#PLUGINS = ['sitemap', 'category_order', 'w3c_validate', 'optimize_images', 'gzip_cache']
-#
-### SITEMAP PLUGIN
-#SITEMAP = {
-#    'format': 'xml',
-#    'priorities': {
-#        'articles': .99,
-#        'pages': .75,
-#        'indexes': .5
-#    },
-#    'changefreqs': {
-#        'articles': 'daily',
-#        'pages': 'daily',
-#        'indexes': 'daily'
-#    },
-#}
+SHARIFF = True
 
-#SITEURL = 'https://mychatadm.in'
+SITEURL = 'https://mychatadm.in'
 
 PATH = 'content'
 
