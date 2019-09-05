@@ -24,6 +24,7 @@ SHARIFF = True
 SITEMAP = {'format': 'xml'}
 SITEURL = 'https://mychatadm.in'
 SUMMARY_MAX_LENGTH = None
+MAIN_MENU = True
 
 PATH = 'content'
 
