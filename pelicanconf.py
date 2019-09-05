@@ -18,6 +18,7 @@ COPYRIGHT_YEAR = 2019
 ROBOTS = 'index, follow'
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = True
+GOOGLE_ANALYTICS = 'UA-147241774-1'
 #PLUGINS = ['sitemap', 'category_order', 'w3c_validate', 'optimize_images', 'gzip_cache']
 #
 ### SITEMAP PLUGIN
@@ -35,7 +36,7 @@ DISPLAY_PAGES_ON_MENU = True
 #    },
 #}
 
-SITEURL = 'https://mychatadm.in'
+#SITEURL = 'https://mychatadm.in'
 
 PATH = 'content'
 
