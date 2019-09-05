@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-THEME = "pelican-themes/pelican-bootstrap3"
+THEME = "pelican-themes/Flex"
 PLUGIN_PATHS = ['pelican-plugins']
 JINJA_ENVIRONMENT = {
     'extensions': ['jinja2.ext.i18n'],
@@ -24,6 +24,7 @@ SHARIFF = True
 SITEMAP = {'format': 'xml'}
 SITEURL = 'https://mychatadm.in'
 SUMMARY_MAX_LENGTH = None
+MAIN_MENU = True
 
 PATH = 'content'
 
