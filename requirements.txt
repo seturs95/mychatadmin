@@ -1,3 +1,4 @@
+gitpython
 webassets
 typogrify
 blinker==1.4

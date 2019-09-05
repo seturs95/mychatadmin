@@ -23,6 +23,7 @@ GOOGLE_ANALYTICS = 'UA-147241774-1'
 SHARIFF = True
 SITEMAP = {'format': 'xml'}
 SITEURL = 'https://mychatadm.in'
+SUMMARY_MAX_LENGTH = None
 
 PATH = 'content'
 
