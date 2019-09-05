@@ -8,7 +8,7 @@ JINJA_ENVIRONMENT = {
     'extensions': ['jinja2.ext.i18n'],
 }
 TYPOGRIFY = True
-PLUGINS = ['assets', 'sitemap', 'i18n_subsites']
+PLUGINS = ['filetime_from_git','assets', 'sitemap', 'i18n_subsites']
 FIRST_NAME = 'MyChatAdmin'
 AUTHOR = 'Admin'
 SITENAME = 'MyChatAdmin - A Ragebot alternative'
@@ -20,24 +20,10 @@ ROBOTS = 'index, follow'
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = True
 GOOGLE_ANALYTICS = 'UA-147241774-1'
-#PLUGINS = ['sitemap', 'category_order', 'w3c_validate', 'optimize_images', 'gzip_cache']
-#
-### SITEMAP PLUGIN
-#SITEMAP = {
-#    'format': 'xml',
-#    'priorities': {
-#        'articles': .99,
-#        'pages': .75,
-#        'indexes': .5
-#    },
-#    'changefreqs': {
-#        'articles': 'daily',
-#        'pages': 'daily',
-#        'indexes': 'daily'
-#    },
-#}
-
-#SITEURL = 'https://mychatadm.in'
+SHARIFF = True
+SITEMAP = {'format': 'xml'}
+SITEURL = 'https://mychatadm.in'
+SUMMARY_MAX_LENGTH = None
 
 PATH = 'content'
 
