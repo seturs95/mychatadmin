@@ -37,5 +37,17 @@ All commands are case insensitive and whitespaces are irgnored.
 * `kick mode kick`
    Kick inactive people from your group  
 
+* `kick message <on|off>`
+   Turns on or off the kick message. Default is `There are more users in this group than expected. Removing inactive users.`
+
+* `kick message <message>`
+   Customize your kick message
+
+* `welcome message <on|off>`
+   Turns on or off the welcome message. This will be sent to everyone joining the group.
+
+* `welcome message <message>`
+   Customize your welcome message
+
 * `clean`
    Kick or ban the 5 least active members manually.   
